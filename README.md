@@ -20,3 +20,6 @@ prismExtractor.py
 
 prismAppend.py
 - This script appends the output of prismExtractor.py to the file containing the historic raster data, which is used in the extraction and analysis tools mentioned previously
+
+PRISMDataExtractionMindMap.mm
+- This is a mind map of the process and data that were used in this developement. Mind map can be read with [FreeMind](http://freemind.sourceforge.net/wiki/index.php/Main_Page).
