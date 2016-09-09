@@ -1,0 +1,22 @@
+# python ignore with Shape Files and Geodatabse
+
+*.csv
+*.pyc
+*.tbx
+*.dbf
+*.prj
+*.sbn
+*.sbx
+*.shp*
+*.shx
+*.cpg
+*.doc*
+practice*
+
+##geodatabase
+*.gdb/*
+raster_mask
+pythonLibraries
+info
+documentation
+temp
