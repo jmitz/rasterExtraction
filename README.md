@@ -18,6 +18,9 @@ The file structure of the CSV files integrate with extraction and analysis tools
 prismExtractor.py
 - This script retrieves the PRISM LT71 data from zip files storing the data into a temporary directory. Each PRISM raster for the particular parameter is reprojected and clipped to a raster mask (representing the Greater Yellowstone Ecosystem). The resulting raster is then converted to an array of appropriately scaled values which are written to a file
 
+prismExtractorLt81.py
+- This script retrieves the PRISM LT81 data from the PRISM/LT81 directory. Each PRISM raster for the particular parameter is reprojected and clipped to a raster mask (representing the Greater Yellowstone Ecosystem). The resulting raster is then converted to an array of appropriately scaled values which are written to the appropriately named csv file. The resulting csv file has a header row and all data for all PRISM LT81 yeaars (currently 1910 through 2015.)
+
 prismAppend.py
 - This script appends the output of prismExtractor.py to the file containing the historic raster data, which is used in the extraction and analysis tools mentioned previously
 
